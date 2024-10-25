@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "68ee33bb-e4d9-49f0-be2a-fc210f30daf1",
+  "name": "guest_ralph",
+  "symbol": "bg_guest_ralph",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "guest_ralph.png",
+  "tileColors": "",
+  "autoColor": false
+}

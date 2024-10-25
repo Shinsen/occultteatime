@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9b148675-3ae7-4a24-ad01-fc1333a1586a",
+  "name": "snack_biscuit",
+  "symbol": "bg_snack_biscuit",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "snack_biscuit.png",
+  "tileColors": "",
+  "autoColor": false
+}

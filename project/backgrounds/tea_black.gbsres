@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2bc65fb1-d576-46ff-bade-52b5c28040d7",
+  "name": "tea_black",
+  "symbol": "bg_tea_black",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tea_black.png",
+  "tileColors": "",
+  "autoColor": false
+}

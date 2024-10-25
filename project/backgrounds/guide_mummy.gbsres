@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "df48d217-f6d2-4113-a6a8-b9fdeb00482f",
+  "name": "guide_mummy",
+  "symbol": "bg_guide_mummy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "guide_mummy.png",
+  "tileColors": ""
+}

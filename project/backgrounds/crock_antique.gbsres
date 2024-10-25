@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0cfa43e3-6af1-48f5-9e5f-a1485cdc5b70",
+  "name": "crock_antique",
+  "symbol": "bg_crock_antique",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "crock_antique.png",
+  "tileColors": "",
+  "autoColor": false
+}

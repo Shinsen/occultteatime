@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "78f07036-c6e7-45d4-ae86-b8e5ddcdce4a",
+  "name": "guest_ravvy",
+  "symbol": "bg_guest_ravvy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "guest_ravvy.png",
+  "tileColors": "",
+  "autoColor": false
+}

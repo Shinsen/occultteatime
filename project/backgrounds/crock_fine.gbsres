@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2479e111-5e03-444c-80ea-7c6274c9f3fb",
+  "name": "crock_fine",
+  "symbol": "bg_crock_fine",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "crock_fine.png",
+  "tileColors": "",
+  "autoColor": false
+}

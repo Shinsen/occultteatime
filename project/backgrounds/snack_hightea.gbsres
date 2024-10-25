@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2b47e300-3707-4dbb-821c-e776d1885439",
+  "name": "snack_hightea",
+  "symbol": "bg_snack_hightea",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "snack_hightea.png",
+  "tileColors": "",
+  "autoColor": false
+}

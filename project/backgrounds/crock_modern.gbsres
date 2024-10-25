@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "97620ad2-86ab-407e-94be-a9f5b2416505",
+  "name": "crock_modern",
+  "symbol": "bg_crock_modern",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "crock_modern.png",
+  "tileColors": "",
+  "autoColor": false
+}

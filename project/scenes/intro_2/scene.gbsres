@@ -1,0 +1,97 @@
+{
+  "_resourceType": "scene",
+  "id": "6f58b6bd-2e37-4062-b4df-67fa5e6d8757",
+  "_index": 1,
+  "name": "Intro 2",
+  "backgroundId": "35f168db-0c42-4088-bd08-cbc87d754c0b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 4,
+  "symbol": "scene_9",
+  "x": 304,
+  "y": 448,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8d712fa6-6c47-4bcb-bf9e-ffc740251a27"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "By night, it is\nnexus for monsters\nseeking kinship."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "aaa175c7-9112-4ae3-a10e-460bb7d17075"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "They meet here\nin the mystic\nChai Garden."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ee95d808-19fb-4f09-810f-0bdafc34f78d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "46945c66-702f-4377-b541-4520454c6235",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "cad477c7-4973-49ae-9974-9303ef94fe8c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

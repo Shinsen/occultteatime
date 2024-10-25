@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "079dea43-200f-4a77-820d-924e67131bff",
+  "name": "teaparty",
+  "symbol": "bg_teaparty",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "teaparty.png",
+  "tileColors": "",
+  "autoColor": false
+}

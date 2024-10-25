@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f26948a1-6f7e-4716-920a-4fa5e0c778fa",
+  "name": "guest_scarlett",
+  "symbol": "bg_guest_scarlett",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "guest_scarlett.png",
+  "tileColors": "",
+  "autoColor": false
+}

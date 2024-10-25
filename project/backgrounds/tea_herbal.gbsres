@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5427a8e7-b764-4e9a-91b3-12accdad6e52",
+  "name": "tea_herbal",
+  "symbol": "bg_tea_herbal",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tea_herbal.png",
+  "tileColors": "",
+  "autoColor": false
+}

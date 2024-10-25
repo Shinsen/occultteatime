@@ -1,0 +1,186 @@
+{
+  "_resourceType": "scene",
+  "id": "1f6b7c90-66f3-48c0-bead-5cae417ca0a1",
+  "_index": 25,
+  "name": "Guide Werewolf",
+  "backgroundId": "1fad882e-e616-48b8-a3fc-f17e0ed1ee99",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_26",
+  "x": 864,
+  "y": 816,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d501d926-b1e9-4634-aca9-c29474c923ba"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- Wolfman -\nMan cursed to turn\ninto a wolf during",
+                "a full moon.\n\n"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0a772267-f357-4af2-aa57-865cc8539de7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "(There's something\nwritten here...)\n",
+                "Ol' wolfy came by\ntonight. Strange\nchap. Sure liked",
+                "a bit of cake.\nWasn't so keen of\nthe biscuits.",
+                "In fact, seemed\nkinda angry at the\nidea of biscuits.",
+                "Scary fella.\n\n"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e865c02c-f48a-47f5-a81a-fdac26a4ad53"
+          }
+        ]
+      },
+      "id": "cabd7194-700e-4b9b-8c46-b9d676708554"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": 2
+            },
+            "id": "b25b0e41-d2eb-4cd2-a188-18af5383645e"
+          }
+        ]
+      },
+      "id": "ff1965af-f32c-40bd-8804-7d8cf8859b9c"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9a7b1c5d-83bc-4604-9607-18de58e32edc",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "c8d138b3-e809-4acf-a765-a34c313826de"
+          }
+        ]
+      },
+      "id": "6aa4b9aa-e27f-470d-85e6-18338b15db09"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9102964c-2f08-4bfe-a86b-80533f328619",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "5cc08d82-24df-437d-b56a-9fcf9c9624f5"
+          }
+        ]
+      },
+      "id": "83bff730-c2f1-402e-b6b6-cc7a24ef768e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

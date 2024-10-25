@@ -1,0 +1,187 @@
+{
+  "_resourceType": "scene",
+  "id": "9a7b1c5d-83bc-4604-9607-18de58e32edc",
+  "_index": 26,
+  "name": "Guide Ghost",
+  "backgroundId": "cf828f71-b884-4986-aceb-bf679afc9395",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_27",
+  "x": 864,
+  "y": 992,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d46a2f22-2677-40d3-b44b-cec1c4bb67ee"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- Spirit -\nA soul trapped\nbetween the living",
+                "and the dead.\nUsually left with\nunfinished",
+                "business.\n\n"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "00c4d210-e36c-413a-aae1-b4ff9cb83496"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "(There's a note\nwritten here...)\n",
+                "I have once again\nmet with the\nghost.",
+                "She is, pardon\nthe pun,\n\"spirited\".",
+                "She is a refined\nlady. Certainly\nlikes the finer",
+                "things.\n\n"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ce374e58-2cb4-41bd-af66-de4440f26304"
+          }
+        ]
+      },
+      "id": "4a192e66-f87a-42d5-86cf-a357d86d48c3"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": 2
+            },
+            "id": "33ae9c65-0f6b-4b22-8066-f76de1de7cc3"
+          }
+        ]
+      },
+      "id": "0052d995-48a4-4a12-b25e-4f7f9d287368"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "aec8f205-0d2e-4651-b43d-375bee32bfda",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "44657895-1142-488d-af1f-653b652a6da3"
+          }
+        ]
+      },
+      "id": "472d3c2d-e4b4-4c35-a3ca-aa225344ca79"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1f6b7c90-66f3-48c0-bead-5cae417ca0a1",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "800b218d-e106-447d-9ae6-cf98693ef62b"
+          }
+        ]
+      },
+      "id": "3a8b4701-006e-46aa-a4ab-cd35ecd5645a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

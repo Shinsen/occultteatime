@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f913ff43-4eb3-41a2-9bfa-edc5c826ef0e",
+  "name": "book_frame",
+  "symbol": "bg_book_frame",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "book_frame.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1de8af26-00fb-4964-be38-68aa31661396",
+  "name": "teashop",
+  "symbol": "bg_teashop",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "teashop.png",
+  "tileColors": "",
+  "autoColor": false
+}

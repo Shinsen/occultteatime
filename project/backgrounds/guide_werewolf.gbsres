@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1fad882e-e616-48b8-a3fc-f17e0ed1ee99",
+  "name": "guide_werewolf",
+  "symbol": "bg_guide_werewolf",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "guide_werewolf.png",
+  "tileColors": ""
+}

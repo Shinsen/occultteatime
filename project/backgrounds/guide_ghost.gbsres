@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cf828f71-b884-4986-aceb-bf679afc9395",
+  "name": "guide_ghost",
+  "symbol": "bg_guide_ghost",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "guide_ghost.png",
+  "tileColors": ""
+}

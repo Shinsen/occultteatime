@@ -1,0 +1,70 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "SeenGuideTutorial",
+      "symbol": "var_seenguidetutorial"
+    },
+    {
+      "id": "1",
+      "name": "SeenIntro",
+      "symbol": "var_seenintro"
+    },
+    {
+      "id": "2",
+      "name": "Variable 9",
+      "symbol": "var_variable_9"
+    },
+    {
+      "id": "3",
+      "name": "GuestScore",
+      "symbol": "var_guestscore"
+    },
+    {
+      "id": "4",
+      "name": "SelectionCrockery",
+      "symbol": "var_selectioncrockery"
+    },
+    {
+      "id": "5",
+      "name": "Selection Total",
+      "symbol": "var_selection_total"
+    },
+    {
+      "id": "6",
+      "name": "Encountered Werewolf",
+      "symbol": "var_encountered_werewolf"
+    },
+    {
+      "id": "7",
+      "name": "Encountered Mummy",
+      "symbol": "var_encountered_mummy"
+    },
+    {
+      "id": "8",
+      "name": "Encountered Vampire",
+      "symbol": "var_encountered_vampire"
+    },
+    {
+      "id": "9",
+      "name": "Encountered Ghost",
+      "symbol": "var_encountered_ghost"
+    },
+    {
+      "id": "10",
+      "name": "SelectionTea",
+      "symbol": "var_selectiontea"
+    },
+    {
+      "id": "11",
+      "name": "GameResult",
+      "symbol": "var_gameresult"
+    },
+    {
+      "id": "12",
+      "name": "SelectionSnack",
+      "symbol": "var_selectionsnack"
+    }
+  ]
+}

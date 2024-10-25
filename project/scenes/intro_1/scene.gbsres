@@ -1,0 +1,73 @@
+{
+  "_resourceType": "scene",
+  "id": "84897f22-08e9-430f-9612-4de1fbd2afeb",
+  "_index": 2,
+  "name": "Intro 1",
+  "backgroundId": "1de8af26-00fb-4964-be38-68aa31661396",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 4,
+  "symbol": "scene_10",
+  "x": 112,
+  "y": 448,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "944c4c97-6d88-44cc-bea4-cdf0b45be0e9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This is OcculTea.\nBy day, it is a\nbustling shop for",
+          "those of \nimpeccable taste."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a53f0b28-8227-4435-87c5-f76bae49b794"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6f58b6bd-2e37-4062-b4df-67fa5e6d8757",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 4
+      },
+      "id": "d3b5ec94-c8f5-4154-8563-5071930bb725"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

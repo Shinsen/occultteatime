@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b83404df-4c07-4e70-8a53-10235c3034a2",
+  "name": "tea_green",
+  "symbol": "bg_tea_green",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tea_green.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,216 @@
+{
+  "_resourceType": "scene",
+  "id": "aec8f205-0d2e-4651-b43d-375bee32bfda",
+  "_index": 23,
+  "name": "Guide Vampire",
+  "backgroundId": "4f514c53-b856-4e32-8d5c-edf09427c7c3",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_24",
+  "x": 864,
+  "y": 448,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7466a97c-fc0d-46f5-aaff-71248473a3a8"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "0"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This is the\nMonstary. It\ncontains the",
+                "compiled works\nof the great\ntea sommeliers",
+                "that came before.\nUse its knowledge\nto your benefit."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7ae36ebe-76b9-44c9-b695-7aea222d9478"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "b52c63bf-a2e5-4c89-a581-d026500b6e97"
+          }
+        ],
+        "false": []
+      },
+      "id": "6e1fd403-ed15-4183-8ddc-b56461dbb1d9"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- Vampire -\nHuman-like\ncreatures with",
+                "a taste for\nblood.\n",
+                "(It seems someone\nhas scribbled\nsomething...)",
+                "Had a chat with\n\"S\" tonight. She\nlikes sweeter",
+                "snacks.\n\n"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "fc3b3e4a-e6ce-4b94-9f4f-1e1c0bde0122"
+          }
+        ]
+      },
+      "id": "4df7b274-7210-4d2e-a216-13fb9adf16ba"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": 2
+            },
+            "id": "961b22c5-2274-48a7-a1cb-32ad49d2ffa3"
+          }
+        ]
+      },
+      "id": "ac37844c-a69f-4887-98eb-64fb31108b45"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9102964c-2f08-4bfe-a86b-80533f328619",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "57cf3edc-72b8-4b65-9568-576aa27e29d6"
+          }
+        ]
+      },
+      "id": "fd3966a9-9878-435a-9815-1108d7266e28"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9a7b1c5d-83bc-4604-9607-18de58e32edc",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "f3eee243-bcb8-4097-89be-acc5f8874c04"
+          }
+        ]
+      },
+      "id": "9798d32f-3c3a-4b89-97a0-ace0ca307dc8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

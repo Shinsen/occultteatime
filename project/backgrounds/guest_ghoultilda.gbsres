@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "24e8697f-6157-41a2-8b2b-3313ed0e9b24",
+  "name": "guest_ghoultilda",
+  "symbol": "bg_guest_ghoultilda",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "guest_ghoultilda.png",
+  "tileColors": "",
+  "autoColor": false
+}

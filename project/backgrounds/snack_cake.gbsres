@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ae83a508-ea60-4d8b-81a0-95241470e915",
+  "name": "snack_cake",
+  "symbol": "bg_snack_cake",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "snack_cake.png",
+  "tileColors": "",
+  "autoColor": false
+}

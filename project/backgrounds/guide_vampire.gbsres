@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4f514c53-b856-4e32-8d5c-edf09427c7c3",
+  "name": "guide_vampire",
+  "symbol": "bg_guide_vampire",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "guide_vampire.png",
+  "tileColors": ""
+}
