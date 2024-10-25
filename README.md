@@ -4,7 +4,7 @@
 
 Occult Teatime is a small game project created for the Action Button [Goblin Bunker Game Jam](https://itch.io/jam/october-2024-goblin-bunker-game-jam) for October 2024 with the prompt "something in the mist".
 
-Check out the game on Itch.io: [https://17shinsen.itch.io/middleware](https://17shinsen.itch.io/middleware)
+Check out the game on Itch.io: [https://17shinsen.itch.io/middleware](https://17shinsen.itch.io/jam-mist-occultteatime)
 
 The game is made with GB Studio.
 
